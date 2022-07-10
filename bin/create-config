@@ -21,8 +21,8 @@ function createConfig() {
       cloudinary: {
         useDatedFolder: false,
         upload: {
-          use_filename: true,
-          unique_filename: false,
+          use_filename: false,
+          unique_filename: true,
           overwrite: false,
           folder: "ghost-blog-images",
           tags: ["blog"],
